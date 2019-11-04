@@ -73,13 +73,17 @@ function purchaseProduct(item, qtyRequested) {
         }
         if (qtyRequested <= results[0].stock_quantity) {
             let total = results[0].price * qtyRequested;
-            console.log(`This item is in stock!`);
+            console.log('');
+            console.log(`=*=*=*=*=*=*=*= This item is in stock! =*=*=*=*=*=*=*=`);
+            console.log('');
             console.log(`Your total cost ${qtyRequested} ${results[0].product_name} is ${total}.`);
-            console.log(`Thank You For Your Order!`);
+            console.log('');
+            console.log(`=*=*=*=*=*=*= Thank You For Your Order! =*=*=*=*=*=*=`);
+            console.log('');
 
             connection.query(`UPDATE products SET stock_quantity = stock_quantity - ${qtyRequested} WHERE item_id = ${item}`);
         } else {
-            console.log(`Sorry! We do not have enough ${results[0].product_name} to complete your order.`);
+            console.log(`-!-!-!-!-!-!-!- INSUFFICIENT QUANTITY! Sorry, we do not have enough ${results[0].product_name} to complete your order. -!-!-!-!-!-!-!-`);
         };
         displayTable();
     });

@@ -4,7 +4,7 @@ Bamazon is a storefront app created with MySQL and Node.js.The MySQL database co
 
 Running this application will first display all of the items available for sale. The table displayed includes the ids, names and prices of products for sale.
 
-*IMAGE HERE*
+![table-image](/table.png)
 
 The app then prompts customers with two messages. The first asks for the ID of the product the customer would like to buy. The second message asks how many units of the product the customer would like to buy.
 

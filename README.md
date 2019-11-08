@@ -8,13 +8,13 @@ Running this application will first display all of the items available for sale.
 
 The app then prompts customers with two messages. The first asks for the ID of the product the customer would like to buy. The second message asks how many units of the product the customer would like to buy.
 
-*IMAGE HERE*
+![question-image](/questions.png)
 
 Once the customer has placed the order, the application checks if the store has enough of the product to meet the customer's request. If the store does have enough of the product, the customer's order will be fulfilled and the app will show the customer the total cost of their purchase. The SQL database will then update to reflect the remaining quantity in the database table.
 
-*IMAGE HERE*
+![in-stock-image](/item-in-stock.png)
 
 If not, the app will notify the customer that there is insufficient quantity for the product and will prevent the order from going through.
 
-*IMAGE HERE*
+![not-enough-image](/not-enough.png)
 

@@ -1,4 +1,4 @@
-# Bamazon APP
+# Bamazon App
 
 Bamazon is a storefront app created with MySQL and Node.js. The MySQL database consists of a table that contains columns showing an id for each product, product name, department each product belongs to, product price and stock quantity.
 

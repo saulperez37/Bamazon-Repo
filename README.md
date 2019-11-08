@@ -1,8 +1,8 @@
 # Bamazon APP
 
-Bamazon is a storefront app created with MySQL and Node.js.The MySQL database consists of a table that contains columns showing a unique id for each product, product name, department each product belongs to, product price and stock quantity.
+Bamazon is a storefront app created with MySQL and Node.js. The MySQL database consists of a table that contains columns showing an id for each product, product name, department each product belongs to, product price and stock quantity.
 
-Running this application will first display all of the items available for sale. The table displayed includes the ids, names and prices of products for sale.
+Running this application will first display all of the items available for sale. The table displayed includes the ids, names and prices of each product for sale.
 
 ![table-image](/table.png)
 

@@ -85,7 +85,8 @@ function purchaseProduct(item, qtyRequested) {
         } else {
             console.log(`-!-!-!-!-!-!-!- INSUFFICIENT QUANTITY! Sorry, we do not have enough ${results[0].product_name} to complete your order. -!-!-!-!-!-!-!-`);
         };
-        displayTable();
+        connection.end();
+
     });
 };
 

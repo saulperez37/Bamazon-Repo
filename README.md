@@ -14,6 +14,8 @@ Once the customer has placed the order, the application checks if the store has 
 
 ![in-stock-image](/item-in-stock.png)
 
+![working-image](/working.png)
+
 If not, the app will notify the customer that there is insufficient quantity for the product and will prevent the order from going through.
 
 ![not-enough-image](/not-enough.png)
